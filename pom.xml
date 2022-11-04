@@ -87,10 +87,11 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
+  <distributionManagement>
 		<repository>
-			<id>nexus-releases</id>
-			<url>http://localhost:8081/repository/maven-releases/</url>
+			<id>deploymentRepo</id>
+			<name>Nexus Repository</name>
+			<url>http://192.168.1.13:8081/repository/maven-releases</url>
 		</repository>
 	</distributionManagement>
 
